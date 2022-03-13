@@ -1,0 +1,103 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 450px;
+  height: 335px;
+  background: white;
+  font-size: 10px;
+  font-family: "Arial", sans-serif;
+  color: white;
+}
+
+.top, .footer {
+  background: #34495e;
+}
+
+.header, .promo-column {
+  background: #c0392b;
+}
+
+.menu, .center-column {
+  background: #3498db;
+}
+
+.top {
+  margin: 0;
+  display: inline-block;
+  width: 450px;
+}
+
+.header {
+  width: 340px;
+  margin: 10px auto;
+  display: block;
+  min-height: 25px;
+  padding: 5px;
+}
+
+.menu {
+  display: block;
+  min-height: 25px;
+  padding: 5px;
+  padding-left: 55px;
+}
+
+.promo-column {
+  width: 160px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  min-height: 50px;
+  padding: 5px;
+}
+
+.promo1 {
+  float:left;
+  margin-left: 50px;
+}
+
+.promo2 {
+  float:right;
+  margin-right: 50px;
+}
+
+.center-column {
+  margin: 10px 0;
+  min-height: 100px;
+  padding: 5px;
+}
+
+.center {
+  background-color: white;
+}
+
+.left, .right {
+  width: 60px;
+}
+
+.left {
+  float: left;
+  margin-left: 50px;
+}
+
+.right {
+  float: right;
+  margin-right: 50px;
+}
+
+.main {
+  width: 180px;
+  float: left;
+  margin: 10px 10px;
+  background: #3498db;
+}
+
+.footer {
+  clear: both;
+  padding: 5px;
+  padding-left: 55px;
+  min-height: 25px;
+}
